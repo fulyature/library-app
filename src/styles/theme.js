@@ -1,7 +1,7 @@
 export const lightTheme = {
   colors: {
     navbarBgColor: "white",
-    mainColor: "##ff8cff",
+    mainColor: "#ff8cff",
     logoColor: "#00bdff",
     linkColor: "#ffa9b4",
     detailBgColor: "#fff59c",
@@ -13,7 +13,7 @@ export const lightTheme = {
     lg: "992px",
   },
 };
-export const darktheme = {
+export const darkTheme = {
   colors: {
     navbarBgColor: "#311906",
     mainColor: "#142007",
