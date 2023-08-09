@@ -1,0 +1,10 @@
+{
+  "files": {
+    "main.js": "/library-app/static/js/main.b9fb42aa.js",
+    "index.html": "/library-app/index.html",
+    "main.b9fb42aa.js.map": "/library-app/static/js/main.b9fb42aa.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.b9fb42aa.js"
+  ]
+}
