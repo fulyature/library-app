@@ -36,4 +36,13 @@ export const Menu = styled(Flex)`
   }
 `;
 
-export const MenuLink = styled(NavLink)``;
+export const MenuLink = styled(NavLink)`
+  text-align: center;
+  padding: 1rem 2rem;
+  cursor: pointer;
+  text-decoration: none;
+  color: ${({ theme }) => theme.colors.linkHoverColor};
+  &.active {
+    text-decoration: underline;
+  }
+`;
