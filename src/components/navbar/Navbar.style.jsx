@@ -41,8 +41,11 @@ export const MenuLink = styled(NavLink)`
   padding: 1rem 2rem;
   cursor: pointer;
   text-decoration: none;
-  color: ${({ theme }) => theme.colors.linkHoverColor};
+  color: ${({ theme }) => theme.colors.linkColor};
   &.active {
     text-decoration: underline;
+  }
+  &:hover {
+    color: ${({ theme }) => theme.colors.linkHoverColor};
   }
 `;

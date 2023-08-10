@@ -11,4 +11,9 @@ export const FooterBtn = styled.button`
   background: none;
   bottom: 0px;
   padding: 1rem;
+  &:hover {
+    svg {
+      fill: ${({ theme }) => theme.colors.themeToggleIcon};
+    }
+  }
 `;

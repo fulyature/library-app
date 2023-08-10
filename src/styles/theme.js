@@ -8,6 +8,7 @@ export const lightTheme = {
     detailColor: "#ebffd4",
     linkHoverColor: "#00bdff",
     headerFormColor: "rgba(15, 63, 42, 0.36)",
+    themeToggleIcon: "#fff",
   },
   screens: {
     lg: "992px",
@@ -15,14 +16,15 @@ export const lightTheme = {
 };
 export const darkTheme = {
   colors: {
-    navbarBgColor: "#311906",
-    mainColor: "#142007",
+    navbarBgColor: "rgba(255, 255, 255, 0.46)",
+    mainColor: "rgb(15,15,15)",
     logoColor: "rgb(5,5,5)",
     linkColor: "rgb(5,5,5)",
-    detailBgColor: "#142007",
-    detailColor: "#ffe993",
-    linkHoverColor: "#fffb52",
-    headerFormColor: "#311906",
+    detailBgColor: "rgb(15,15,15)",
+    detailColor: "white",
+    linkHoverColor: "bisque",
+    headerFormColor: "rgba(255, 255, 255, 0.46)",
+    themeToggleIcon: "yellow",
   },
   screens: {
     lg: "992px",
