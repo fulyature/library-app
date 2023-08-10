@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/library-app/static/js/main.72b327a5.js",
+    "main.js": "/library-app/static/js/main.7d06739d.js",
     "index.html": "/library-app/index.html",
-    "main.72b327a5.js.map": "/library-app/static/js/main.72b327a5.js.map"
+    "main.7d06739d.js.map": "/library-app/static/js/main.7d06739d.js.map"
   },
   "entrypoints": [
-    "static/js/main.72b327a5.js"
+    "static/js/main.7d06739d.js"
   ]
 }
