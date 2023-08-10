@@ -2,11 +2,11 @@ export const lightTheme = {
   colors: {
     navbarBgColor: "white",
     mainColor: "#ff8cff",
-    logoColor: "#00bdff",
+    logoColor: "#eb3d91",
     linkColor: "#ffa9b4",
     detailBgColor: "#fff59c",
     detailColor: "#ebffd4",
-    linkHoverColor: "#eb3d91",
+    linkHoverColor: "#00bdff",
     headerFormColor: "rgba(15, 63, 42, 0.36)",
   },
   screens: {
