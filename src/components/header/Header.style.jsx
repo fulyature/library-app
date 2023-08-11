@@ -41,15 +41,44 @@ export const SearchInput = styled.input`
   outline: none;
   text-indent: 10px;
   font-size: 2rem;
-  border-top-left-radius: 1rem;
-  border-bottom-left-radius: 1rem;
+
   background-color: rgb(255, 255, 255, 0.5);
+  @media (max-width: ${({ theme }) => theme.screens.lg}) {
+    width: 100%;
+    border-radius: 1px;
+  }
+`;
+
+export const SelectBox = styled.select`
+  border-radius: 3px;
+  margin-top: 2rem;
+  padding: 5px;
+  height: 3rem;
+  width: 40%;
+  border: none;
+  outline: none;
+  font-size: 2rem;
+
+  background-color: rgb(255, 255, 255, 0.8);
+
   @media (max-width: ${({ theme }) => theme.screens.lg}) {
     width: 100%;
     border-radius: 3px;
   }
 `;
 
-export const SelectBox = styled.select``;
+export const HeaderButton = styled.button`
+  background-color: #f5e4a1;
+  padding: 5px;
+  outline: none;
+  height: 3rem;
+  border: none;
+  margin: 1rem;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 2rem;
 
-export const HeaderButton = styled.button``;
+  &:hover {
+    background-color: ${({ theme }) => theme.colors.navbarBgColor};
+  }
+`;
