@@ -1,7 +1,7 @@
 export const lightTheme = {
   colors: {
     navbarBgColor: "white",
-    mainColor: "#ff8cff",
+    mainColor: "#F31559",
     logoColor: "#eb3d91",
     linkColor: "#ffa9b4",
     detailBgColor: "#fff59c",

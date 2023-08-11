@@ -16,7 +16,7 @@ const Login = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     setUser(true);
-    navigate(-1);
+    navigate("/about");
   };
   return (
     <LoginContainer>
