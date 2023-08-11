@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.js": "/library-app/static/js/main.a28007e3.js",
+    "main.js": "/library-app/static/js/main.3a966a35.js",
     "static/media/hog2.jpg": "/library-app/static/media/hog2.69d97bc2b6b4301d6ad9.jpg",
     "index.html": "/library-app/index.html",
-    "main.a28007e3.js.map": "/library-app/static/js/main.a28007e3.js.map"
+    "main.3a966a35.js.map": "/library-app/static/js/main.3a966a35.js.map"
   },
   "entrypoints": [
-    "static/js/main.a28007e3.js"
+    "static/js/main.3a966a35.js"
   ]
 }
