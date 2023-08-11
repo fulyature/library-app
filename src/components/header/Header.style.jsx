@@ -16,7 +16,7 @@ export const HeaderTitle = styled.h1`
 
 export const HeaderForm = styled.form`
   display: flex;
-  width: 45%;
+  /* width: 45%; */
   flex-wrap: wrap;
   justify-content: center;
   border-radius: 8px;
