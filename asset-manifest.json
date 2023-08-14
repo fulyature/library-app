@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.js": "/library-app/static/js/main.633712ab.js",
+    "main.js": "/library-app/static/js/main.582e8e2f.js",
     "static/media/hog2.jpg": "/library-app/static/media/hog2.69d97bc2b6b4301d6ad9.jpg",
     "static/media/book.jpg": "/library-app/static/media/book.bb868d921d9ac1db3fb6.jpg",
     "index.html": "/library-app/index.html",
-    "main.633712ab.js.map": "/library-app/static/js/main.633712ab.js.map"
+    "main.582e8e2f.js.map": "/library-app/static/js/main.582e8e2f.js.map"
   },
   "entrypoints": [
-    "static/js/main.633712ab.js"
+    "static/js/main.582e8e2f.js"
   ]
 }
