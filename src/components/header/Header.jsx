@@ -32,6 +32,8 @@ const Header = () => {
           placeholder="search..."
           value={searchInfo.query}
           name="query"
+          onChange={handleChange}
+          // onChange={()=>setSearchInfo({...searchInfo, query:e.target.value})} --- bunun yerine dinamik bir fks yazıldı
         />
 
         <SelectBox

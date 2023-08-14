@@ -26,7 +26,7 @@ const BooksContextProvider = ({ children }) => {
     } catch (error) {}
   };
 
-  const values = { myData, setMyData };
+  const values = { myData, setMyData, getData, searchInfo, setSearchInfo };
   return (
     <BooksContext.Provider value={{ ...values }}>
       {children}
