@@ -17,7 +17,7 @@ const Header = () => {
     console.log(e.target);
     console.log(e.target.name);
     console.log({ [e.target.name]: e.target.value });
-    setSearchInfo({ ...searchInfo, [e.target.name]: e.target.value }); // inputun name atributleriyle ile statede ki key isimleri aynı olmak zorunda.
+    setSearchInfo({ ...searchInfo, [e.target.name]: e.target.value }); // inputun name atributleriyle statede ki key isimleri aynı olmak zorunda.
   };
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -33,14 +33,14 @@ const Header = () => {
           value={searchInfo.query}
           name="query"
           onChange={handleChange}
+          required
           // onChange={()=>setSearchInfo({...searchInfo, query:e.target.value})} --- bunun yerine dinamik bir fks yazıldı
         />
 
         <SelectBox
-          value={searchInfo.query}
+          value={searchInfo.selectType}
           name="selectType"
           onChange={handleChange}
-          required
         >
           {printType.map((item) => (
             <option key={item} value={item}></option>
