@@ -5,7 +5,7 @@ export const lightTheme = {
     logoColor: "#eb3d91",
     linkColor: "#ffa9b4",
     detailBgColor: "#fff59c",
-    detailColor: "#ebffd4",
+    detailColor: "#953553",
     linkHoverColor: "#00bdff",
     headerFormColor: "rgba(15, 63, 42, 0.36)",
     themeToggleIcon: "#fff",
